@@ -100,12 +100,9 @@ function trimZerosAEsquerda( vlr){
 function fillZerosAEsquerda( vlr, minLength ){
  var i;
  STR = new String("");
- 
- vlr= trimZerosAEsquerda (vlr);
- 
+ vlr= trimZerosAEsquerda (vlr); 
  for (i=0; i < (minLength - vlr.length); i++)
   STR = "0" + STR;
- 
  return STR;  
 }
 function posicionaCursor(OBJ, LOC, POS){

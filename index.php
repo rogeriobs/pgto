@@ -45,7 +45,9 @@
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td width="12%" nowrap="nowrap">Valor:</td>
-        <td width="88%"><input name="txt_Valor" type="text" id="txt_Valor" onkeydown="formatamoeda(this,retornaKeyCode(event),2)" onkeyup="formatamoeda(this,retornaKeyCode(event),2)" value="0,00" maxlength="15" /></td>
+        <td width="88%">
+        	<input name="txt_Valor" type="text" id="txt_Valor" onkeydown="formatamoeda(this,retornaKeyCode(event),2)" onkeyup="formatamoeda(this,retornaKeyCode(event),2)" value="0,00" maxlength="15" />
+        </td>
       </tr>
       <tr>
         <td nowrap="nowrap">Entrada:</td>
@@ -60,7 +62,8 @@
       </tr>
       <tr>
         <td nowrap="nowrap">Taxa / Juros %</td>
-        <td><label for="txt_taxajuros"></label>
+        <td>
+        	<label for="txt_taxajuros"></label>
         <input name="txt_taxajuros" type="text" id="txt_taxajuros" onkeypress="return SomenteNumeroPontoVirgula(event, this.value)" maxlength="5" /></td>
       </tr>
       <tr>
@@ -72,11 +75,13 @@
   <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td width="37%" nowrap="nowrap">Valor das Parcelas:</td>
-        <td width="63%"><input name="txt_resultParcelas" type="text" disabled="disabled" class="inputText" id="txt_resultParcelas" readonly="readonly" /></td>
+        <td width="63%">
+        	<input name="txt_resultParcelas" type="text" disabled="disabled" class="inputText" id="txt_resultParcelas" readonly="readonly" /></td>
       </tr>
       <tr>
         <td nowrap="nowrap">Valor Total Financiado:</td>
-        <td><input name="txt_resultTotalFinan" type="text" disabled="disabled" class="inputText" id="txt_resultTotalFinan" readonly="readonly" /></td>
+        <td>
+        	<input name="txt_resultTotalFinan" type="text" disabled="disabled" class="inputText" id="txt_resultTotalFinan" readonly="readonly" /></td>
       </tr>
     </table>
     </form>
