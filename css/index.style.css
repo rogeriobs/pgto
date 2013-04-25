@@ -1,7 +1,8 @@
 /* CSS Document */
 *{
-margin:0; padding:0; box-sizing:border-box;
--webkit-box-sizing: border-box;
+margin:0; padding:0;
+	    box-sizing:border-box;
+-webkit-box-sizing: border-box;  
    -moz-box-sizing: border-box;
 		box-sizing: border-box;
 }
@@ -39,7 +40,7 @@ h2.tit{
 	padding:6px;
 }
 #bodyBody input[type='text']{
-	border-top:1px #999 solid;
+	border-top:1px #888 solid;
 	border-bottom:1px #BBB solid;
 	border-left:1px #BBB solid;
 	border-right:1px #BBB solid;
