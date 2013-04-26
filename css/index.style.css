@@ -50,7 +50,7 @@ h2.tit{
 	text-align:right;
 }
 #bodyBody input[type='text']:focus{
-	border-color:#F00;
+	border-color:#0F0;
 }
 #bodyBody input[type='text']:disabled{
 	background:#d1d1d1;
