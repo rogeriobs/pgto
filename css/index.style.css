@@ -49,6 +49,9 @@ h2.tit{
 	width:100%;	
 	text-align:right;
 }
+#bodyBody input[type='text']:focus{
+	border-color:#F00;
+}
 #bodyBody input[type='text']:disabled{
 	background:#d1d1d1;
 	border-color:#d1d1d1;	
