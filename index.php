@@ -29,9 +29,7 @@
             valorTT = PMT * nparc;
             
             document.getElementById('txt_resultParcelas').value = PMT.formatMoney(2,'.',',');
-            document.getElementById('txt_resultTotalFinan').value = valorTT.formatMoney(2,'.',',');	
-            
-            return false;
+            document.getElementById('txt_resultTotalFinan').value = valorTT.formatMoney(2,'.',',');
         }
         document.getElementById('frmCalculaPGTO').addEventListener('submit', calcular, true);
     }
