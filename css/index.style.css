@@ -22,6 +22,7 @@ body{font-family:Arial, Helvetica, sans-serif; background:#EEEEEE;}
 	background: -ms-linear-gradient(top,  #d8d8d8 0%,#d5d5d5 44%,#d1d1d1 100%);
 	background: linear-gradient(to bottom,  #d8d8d8 0%,#d5d5d5 44%,#d1d1d1 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8d8d8', endColorstr='#d1d1d1',GradientType=0 );
+	border-radius:4px;
 
 }
 h2.tit{
